@@ -6,10 +6,10 @@ public class Movement : MonoBehaviour
     private Vector3 position;
     private CharacterController controller;
     
-    public float moveSpeed = 10f,  gravity = 9.81f, jumpSpeed = 30f;
+    public float moveSpeed = 30f,  gravity = 6f, jumpSpeed = 30f;
     private int jumpCount;
     public int jumpCountMax = 2;
-
+    
     private void Start()
     {
         controller = GetComponent<CharacterController>();
