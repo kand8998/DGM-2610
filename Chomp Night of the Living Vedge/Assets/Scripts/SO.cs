@@ -28,7 +28,6 @@ public class SceneManagement : ScriptableObject
     }
 }
 
-
 [CreateAssetMenu]
 public class GameAction : ScriptableObject
 {
@@ -52,7 +51,7 @@ public class FloatData : ScriptableObject
 {
     public float value = 1f;
     public float maxValue = 1f;
-    private void UpdateValue(float amount)
+    public void UpdateValue(float amount)
     {
         value += amount;
     }
@@ -89,4 +88,12 @@ public class FloatData : ScriptableObject
     }
 }
 
+[CreateAssetMenu]
+public class Debugger : ScriptableObject
+{
+    public void OnDebug(string message)
+    {
+        Debug.Log(message);
+    }
+}
 
