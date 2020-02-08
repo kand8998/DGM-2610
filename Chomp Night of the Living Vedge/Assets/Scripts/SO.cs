@@ -3,6 +3,21 @@ using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 [CreateAssetMenu]
+public class InstanceObject : ScriptableObject
+{
+    public Transform location;
+    
+    public void Instance(GameObject instance)
+    {
+        Instantiate(instance);
+    }
+    public void InstanceAtLocation(GameObject instance)
+    {
+        Instantiate(instance, location.position, location.rotation);
+    }
+}
+
+[CreateAssetMenu]
 public class SceneManagement : ScriptableObject
 {
     public void LoadScene (Object sceneName)
