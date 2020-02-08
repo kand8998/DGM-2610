@@ -20,6 +20,5 @@ public class WaitTimer : MonoBehaviour
     private IEnumerator WaiteCoroutine()
     {
         yield return new WaitForSecondsRealtime(waitTime);
-        Debug.Log("Time's Up");
     }
 }
