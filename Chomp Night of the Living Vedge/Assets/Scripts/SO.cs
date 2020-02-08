@@ -6,14 +6,15 @@ using UnityEngine.SceneManagement;
 public class InstanceObject : ScriptableObject
 {
     public Transform location;
+    public GameObject instanceObj;
     
-    public void Instance(GameObject instance)
+    public void Instance()
     {
-        Instantiate(instance);
+        Instantiate(instanceObj);
     }
-    public void InstanceAtLocation(GameObject instance)
+    public void InstanceAtLocation()
     {
-        Instantiate(instance, location.position, location.rotation);
+        Instantiate(instanceObj, location.position, location.rotation);
     }
 }
 
