@@ -9,21 +9,41 @@ public class MouseButtonEvents : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            mouseButtonDownEvent.Invoke();
+            LeftMouseDown();
         }
 
         if (Input.GetMouseButtonUp(0))
         {
-            mouseButtonUpEvent.Invoke();
+            LeftMouseUp();
         }
+
         if (Input.GetMouseButtonDown(1))
         {
-            rightButtonDownEvent.Invoke();
+            RightMouseDown();
         }
 
         if (Input.GetMouseButtonUp(1))
         {
-            rightButtonUpEvent.Invoke();
+            RightMouseUp();
         }
+    }
+
+    private void LeftMouseDown()
+    {
+        mouseButtonDownEvent.Invoke();
+    }
+  
+    private void LeftMouseUp()
+    {
+        mouseButtonUpEvent.Invoke();
+    }
+  
+    private void RightMouseDown()
+    {
+        rightButtonDownEvent.Invoke();
+    }
+    private void RightMouseUp()
+    {
+        rightButtonUpEvent.Invoke();
     }
 }
