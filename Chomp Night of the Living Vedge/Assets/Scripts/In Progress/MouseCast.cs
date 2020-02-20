@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 
-
-public class MouseCast : Movement
+public class MouseCast : MoveBase
 {
     public Interactable focus;
     private Camera cam;
