@@ -15,15 +15,6 @@ public class InventoryUI : MonoBehaviour
         slots = itemsParent.GetComponentsInChildren<InventorySlot>();
     }
 
-    
-    private void Update()
-    {
-        if (Input.GetButtonDown("Inventory"))
-        {
-            inventoryUI.SetActive(!inventoryUI.activeSelf);
-        } 
-    }
-
     private void UpdateUI()
     {
         for (int i = 0; i < slots.Length; i++)
