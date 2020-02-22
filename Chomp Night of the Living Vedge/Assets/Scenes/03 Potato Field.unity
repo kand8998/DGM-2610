@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45042342, g: 0.5004306, b: 0.5752153, a: 1}
+  m_IndirectSpecularColor: {r: 0.17624468, g: 0.22057845, b: 0.30290362, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8184,10 +8184,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c00c4d66a96a94283c3eb7124c9c12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 41
-  gravity: 5
   jumpSpeed: 40
+  rotationSpeed: 100
+  gravity: 5
+  moveSpeed: 41
   jumpCountMax: 4
+  speedUpEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  speedDownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &695585633
 GameObject:
   m_ObjectHideFlags: 0
@@ -10902,13 +10913,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905119633}
-  m_LocalRotation: {x: 0.9332373, y: -0.14755283, z: -0.025240285, w: 0.3265873}
+  m_LocalRotation: {x: 0.80433446, y: -0.13456875, z: -0.06557564, w: 0.5750106}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 142.978, y: 10.352997, z: 21.443985}
+  m_LocalEulerAnglesHint: {x: 114.858, y: 38.25, z: 43.97699}
 --- !u!1 &907628228
 GameObject:
   m_ObjectHideFlags: 0
