@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 [CreateAssetMenu(menuName = "Single Variables/FloatData")]
 public class FloatData : ScriptableObject
 {
     public float value = 1f;
     public float maxValue = 1f;
-    
+    public UnityEvent zeroEvent;
     public void UpdateValue(float amount)
     {
         value += amount;
@@ -20,6 +21,7 @@ public class FloatData : ScriptableObject
         else
         {
             value = 0;
+            zeroEvent.Invoke();
         }
     }
     
