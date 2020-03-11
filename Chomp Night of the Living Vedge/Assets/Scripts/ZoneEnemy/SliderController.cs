@@ -7,7 +7,6 @@ public class SliderController : MonoBehaviour
     public Slider slider;
     public Gradient gradient;
     public Image fill;
-    
     public void SetMaxHealth(int amount)
     {
         slider.maxValue = amount;

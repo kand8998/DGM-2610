@@ -660,6 +660,17 @@ MonoBehaviour:
           m_StringArgument: Mouse is Down!
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1884523445}
+        m_MethodName: TakeDamage
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -0.1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   mouseUpEvent:
@@ -691,17 +702,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: It's Triggering
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1884523445}
-        m_MethodName: TakeDamage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: -1
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -4269,6 +4269,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  healthBar: {fileID: 0}
 --- !u!4 &1884523446
 Transform:
   m_ObjectHideFlags: 0
@@ -4991,7 +4992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f8d9ba33d69bad42886d2dda448d9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
+  enemy: {fileID: 1884523445}
   gradient:
     serializedVersion: 2
     key0: {r: 0.17475079, g: 0.41927445, b: 0.4811321, a: 1}
@@ -5282,6 +5283,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 68bb74422c0af754d9f27b244073dd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 50

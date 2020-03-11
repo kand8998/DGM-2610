@@ -3,13 +3,19 @@ using UnityEngine.Events;
 
 public class CharStats : MonoBehaviour
 {
-    public float maxHealth = 1;
-    public float currentHealth { get; set; }
+    public int maxHealth = 1;
+    public int currentHealth { get; set; }
     
     public Stats damage;
     public UnityEvent damageEvent, dieEvent;
     
-
+    public SliderController healthBar;
+    
+    private void Start()
+    {
+        if (healthBar != null) healthBar.SetMaxHealth(maxHealth);
+    }
+    
     private void Awake()
     {
         currentHealth = maxHealth;
