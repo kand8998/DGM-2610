@@ -21,4 +21,4 @@ public class SliderController : MonoBehaviour
         slider.value = amount;
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
-}
+} 

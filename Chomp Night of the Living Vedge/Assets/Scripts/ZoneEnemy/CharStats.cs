@@ -4,16 +4,18 @@ using UnityEngine.Events;
 public class CharStats : MonoBehaviour
 {
     public int maxHealth = 1;
-    public int currentHealth { get; set; }
+    private int currentHealth { get; set; }
+    public int damage;
     
-    public Stats damage;
     public UnityEvent damageEvent, dieEvent;
+    public GameAction damageAction;
     
     public SliderController healthBar;
     
     private void Start()
     {
         if (healthBar != null) healthBar.SetMaxHealth(maxHealth);
+        damageAction.action += TakeDamage;
     }
     
     private void Awake()
@@ -21,10 +23,13 @@ public class CharStats : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage()
     {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+        
         damage = Mathf.Clamp(damage, 0, int.MaxValue);
-        currentHealth += damage;
+
         damageEvent.Invoke();
 
         if (currentHealth <= 0)

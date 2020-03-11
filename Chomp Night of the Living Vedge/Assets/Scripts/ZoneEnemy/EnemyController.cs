@@ -7,13 +7,11 @@ public class EnemyController : MonoBehaviour
 
     private Transform target;
     private NavMeshAgent agent;
-    private CharCombat combat;
 
     private void Start()
     {
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
-        combat = GetComponent<CharCombat>();
     }
     
     private void Update()
@@ -30,7 +28,7 @@ public class EnemyController : MonoBehaviour
             CharStats targetStats = target.GetComponent<CharStats>();
             if (targetStats != null)
             {
-                combat.Attack(targetStats);
+               
             }
 
             FaceTarget();
