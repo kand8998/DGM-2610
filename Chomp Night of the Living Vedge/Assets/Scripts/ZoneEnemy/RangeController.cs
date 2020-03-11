@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class RangeController : MonoBehaviour
 {
-  public UnityEvent rangeEvent;
+  public UnityEvent rangeEvent, outOfRangeEvent;
   
   public float radius = 10.0f;
   private Transform target;
@@ -20,6 +20,11 @@ public class RangeController : MonoBehaviour
     if (distance < radius)
     {
       rangeEvent.Invoke();
+    }
+
+    if (distance > radius)
+    {
+      outOfRangeEvent.Invoke();
     }
   }
   

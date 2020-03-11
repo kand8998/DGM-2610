@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(EnemyStats))]
 [RequireComponent(typeof(EnemyController))]
 [RequireComponent(typeof(CharCombat))]
 public class Enemy : Interactable

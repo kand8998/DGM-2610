@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class EnemyHealthImageController : MonoBehaviour
 {
     private Image imageComponent;
-    public EnemyStats enemy;
+    public CharStats enemy;
     public Gradient gradient;
     
     private void Start()
