@@ -6,7 +6,7 @@ public class CharStats : MonoBehaviour
     private int currentHealth { get; set; }
     
     public Stats damage;
-    public HealthBar healthBar;
+    public SliderController healthBar;
 
     private void Awake()
     {
