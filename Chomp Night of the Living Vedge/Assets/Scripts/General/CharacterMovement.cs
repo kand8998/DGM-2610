@@ -27,22 +27,16 @@ public class CharacterMovement : MoveBase
                 controller.transform.forward = position;
             }
         }
-        
-        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
-        {
-            position.y = jumpSpeed;
-            jumpCount++;
-        }
-        
+
         controller.Move(position*Time.deltaTime);
         
-        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.RightShift))
         {
             moveSpeed = sprintSpeed;
             SpeedIncrease();
         }
         
-        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
+        if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.RightShift))
         {
             moveSpeed = walkSpeed;
             SpeedDecrease();
