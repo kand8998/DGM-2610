@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4281153681311800250}
   - component: {fileID: 8390897275774853602}
   - component: {fileID: 8895070856414087375}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Pea Obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 296178892662117650}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: MoveSpot
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -115,7 +115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296178892662117651}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.2, y: 0, z: 48.1}
+  m_LocalPosition: {x: -4.2, y: 0, z: 87.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 296178893023399170}
@@ -130,7 +130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 296178892860172571}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Pea Controller (Basic)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 296178893006735616}
   - component: {fileID: 296178893006735619}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Pea Patrol Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,8 +178,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296178893006735617}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 3.8, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 296178893868591261}
   - {fileID: 4859549918312006315}
@@ -212,7 +212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 296178893023399170}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Patrol Points (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296178893211429976}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5, y: 0, z: -112.1}
+  m_LocalPosition: {x: -3.5, y: 0, z: -84.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 296178893023399170}
@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 296178893868591261}
   - component: {fileID: 296178893868591248}
   - component: {fileID: 3428790301022085342}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Pea Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
