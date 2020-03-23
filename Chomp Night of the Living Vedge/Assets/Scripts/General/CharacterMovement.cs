@@ -30,7 +30,13 @@ public class CharacterMovement : MoveBase
                 controller.transform.forward = position;
             }
         }
-
+        
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+        {
+            position.y = jumpSpeed;
+            jumpCount++;
+        }
+        
         controller.Move(position*Time.deltaTime);
     }
 
