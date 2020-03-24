@@ -3,7 +3,8 @@ using UnityEngine.Events;
 
 public class MouseButtonEvents : MonoBehaviour
 {
-    public UnityEvent mouseButtonDownEvent, mouseButtonUpEvent, rightButtonDownEvent, rightButtonUpEvent;
+    public UnityEvent mouseButtonDownEvent, mouseButtonUpEvent, 
+        rightButtonDownEvent, rightButtonUpEvent;
 
     private void Update()
     {
