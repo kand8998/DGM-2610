@@ -953,6 +953,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
+        type: 3}
+      propertyPath: mouseButtonUpEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
+        type: 3}
+      propertyPath: mouseButtonUpEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
+        type: 3}
+      propertyPath: mouseButtonUpEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
+        type: 3}
+      propertyPath: mouseButtonUpEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 616fb764085727f4fb32e7eca528c6b8,
+        type: 2}
+    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
+        type: 3}
+      propertyPath: mouseButtonUpEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
+        type: 3}
+      propertyPath: mouseButtonUpEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e37e39a4c473abd42aa7a030fd6310a1, type: 3}
 --- !u!33 &2198374003594680244

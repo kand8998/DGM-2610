@@ -60,7 +60,7 @@ public class CharacterMovement : MoveBase
 
     private IEnumerator WaitAndCheck()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
         canRun = true;
         Debug.Log("Can you run now?");
     }
