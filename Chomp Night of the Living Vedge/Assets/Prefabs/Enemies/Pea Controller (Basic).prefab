@@ -115,7 +115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296178892662117651}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.2, y: 0, z: 87.5}
+  m_LocalPosition: {x: 2, y: 0, z: 37.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 296178893023399170}
@@ -146,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 296178892860172568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -95.9433, y: -7.7183228, z: 80.42191}
-  m_LocalScale: {x: 0.6753068, y: 0.6753068, z: 0.6753068}
+  m_LocalScale: {x: 0.8271158, y: 0.8271158, z: 0.8271158}
   m_Children:
   - {fileID: 296178893006735616}
   - {fileID: 296178893023399170}
@@ -179,7 +179,7 @@ Transform:
   m_GameObject: {fileID: 296178893006735617}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 3.8, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.467404, y: 1.467404, z: 1.467404}
   m_Children:
   - {fileID: 296178893868591261}
   - {fileID: 4859549918312006315}
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8be899c1070492649a2a24064fc4e0e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 103.14
+  speed: 110
   startWaitTime: 3
   moveSpots:
   - {fileID: 296178892662117650}
@@ -350,21 +350,6 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   triggerExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  triggerStayEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  crouchEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  standEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
