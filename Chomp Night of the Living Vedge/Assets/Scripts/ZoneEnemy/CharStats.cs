@@ -8,14 +8,12 @@ public class CharStats : MonoBehaviour
     public int damage;
     
     public UnityEvent damageEvent, dieEvent;
-    public GameAction damageAction;
-    
+
     public SliderController healthBar;
     
     private void Start()
     {
         if (healthBar != null) healthBar.SetMaxHealth(maxHealth);
-        damageAction.action += TakeDamage;
     }
     
     private void Awake()

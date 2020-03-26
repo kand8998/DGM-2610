@@ -3,8 +3,7 @@ using UnityEngine.Events;
 
 public class TriggerEvents : MonoBehaviour
 {
-    public UnityEvent triggerEnterEvent, triggerExitEvent,
-        triggerStayEvent, crouchEvent, standEvent;
+    public UnityEvent triggerEnterEvent, triggerExitEvent;
     private void OnTriggerEnter(Collider other)
     {
         triggerEnterEvent.Invoke();
