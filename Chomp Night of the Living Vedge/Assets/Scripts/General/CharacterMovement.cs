@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMovement : MoveBase
@@ -20,6 +21,9 @@ public class CharacterMovement : MoveBase
     
     private void Update()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+        
         position.x = moveSpeed*Input.GetAxis("Horizontal");
         position.z = moveSpeed*Input.GetAxis("Vertical");
         position.y -= gravity;

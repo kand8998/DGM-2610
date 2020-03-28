@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-
+﻿
 public class ItemPickup : Interactable
 {
     public Item item;

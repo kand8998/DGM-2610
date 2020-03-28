@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5251730090462363501}
   - component: {fileID: 2346268055512777396}
   m_Layer: 0
-  m_Name: Stick_Icon
+  m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 6230449320009704872}
   - component: {fileID: 8062014405274882144}
   m_Layer: 0
-  m_Name: Stick Puck
+  m_Name: Puck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 7636606669665909903}
   - component: {fileID: 6303698633483869468}
   m_Layer: 0
-  m_Name: Stick Collectable
+  m_Name: Collectable Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0705c9b99aa5e7942a2783ed27d2902b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemObj: {fileID: 11400000, guid: 8bfb780aa9709fc4fbf33f0e9bd82c48, type: 2}
+  itemObj: {fileID: 0}
 --- !u!1 &1991781086327570671
 GameObject:
   m_ObjectHideFlags: 0
