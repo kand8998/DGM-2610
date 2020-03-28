@@ -262,8 +262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15804f997b445084ca80ad72e4a5e081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destinationAction: {fileID: 0}
-  playerAction: {fileID: 0}
+  destinationAction: {fileID: 11400000, guid: 0ae39a64eb271b34ba95b54039c52ac4, type: 2}
+  playerAction: {fileID: 11400000, guid: ef9124a12ff025c4595bc3084c2ef662, type: 2}
   player: {fileID: 355626582}
   destination: {fileID: 355626582}
 --- !u!195 &504587880
@@ -561,6 +561,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1193591805995643696, guid: bc9b967fa2ced5d428ad926b2dd5208b,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 355626582}
     - target: {fileID: 1409192311329306015, guid: bc9b967fa2ced5d428ad926b2dd5208b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -591,11 +596,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5472453
       objectReference: {fileID: 0}
-    - target: {fileID: 1193591805995643696, guid: bc9b967fa2ced5d428ad926b2dd5208b,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 355626582}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc9b967fa2ced5d428ad926b2dd5208b, type: 3}
 --- !u!1 &1770782315
