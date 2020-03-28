@@ -16,11 +16,11 @@ public class AiFollow : MonoBehaviour
         playerAction.action += DestinationPlayerSet;
     }
     
-   // private void Update()
-  //  {
-  //      agent.destination = destination.position;
-   //     destination = player;
- //   }
+    private void Update()
+    { 
+        agent.destination = destination.position;
+        destination = player;
+     }
 
     private void DestinationSelfSet()
     {
