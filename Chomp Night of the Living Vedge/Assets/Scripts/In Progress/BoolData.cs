@@ -1,18 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class BoolData : MonoBehaviour
+[CreateAssetMenu(menuName = "Single Variables/BoolData")]
+public class BoolData : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public bool Switch;
 
-    // Update is called once per frame
-    void Update()
+    public void SetBoolTrue()
     {
-        
+        Switch = true;
+    }
+    
+    public void SetBoolFalse()
+    {
+        Switch = false;
     }
 }

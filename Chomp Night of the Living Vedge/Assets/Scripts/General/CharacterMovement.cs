@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class CharacterMovement : MoveBase
 {
     public GameAction speedUpAction, slowDownAction;
-    
+
     public float walkSpeed = 30f;
     public float sprintSpeed = 60f;
 
