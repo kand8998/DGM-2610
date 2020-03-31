@@ -4,12 +4,10 @@ public class Spawn : MonoBehaviour
 {
     public GameObject item;
     private Transform player;
-    public GameAction droppedAction;
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        droppedAction.action += SpawnDroppedItem;
     }
 
     public void SpawnDroppedItem()
