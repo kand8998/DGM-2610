@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 [CreateAssetMenu]
 public class SceneManagement : ScriptableObject
 {
