@@ -111,7 +111,7 @@ NavMeshSettings:
     accuratePlacement: 1
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 5184fe94a64ecfd48bc801c9af9671b6, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 81fb1954ef47ed14cb7ae0c6e07160af, type: 2}
 --- !u!4 &355626582 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1982176397668941408, guid: e37e39a4c473abd42aa7a030fd6310a1,
@@ -742,21 +742,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3598792846370130728, guid: a7d4f9bcd4be839428eb8c80a5b86760,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 355626582}
-    - target: {fileID: 3598792846981976387, guid: a7d4f9bcd4be839428eb8c80a5b86760,
-        type: 3}
-      propertyPath: cam
-      value: 
-      objectReference: {fileID: 498622814}
     - target: {fileID: 3598792845171629003, guid: a7d4f9bcd4be839428eb8c80a5b86760,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3598792846981976387, guid: a7d4f9bcd4be839428eb8c80a5b86760,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 498622814}
+    - target: {fileID: 3598792846370130728, guid: a7d4f9bcd4be839428eb8c80a5b86760,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 355626582}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7d4f9bcd4be839428eb8c80a5b86760, type: 3}
 --- !u!1001 &6832669382871635164
