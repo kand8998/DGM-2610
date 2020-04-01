@@ -135,7 +135,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1778862784832057445}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 13.76
   m_Speed: 20
   m_Acceleration: 8
   avoidancePriority: 50
@@ -144,8 +144,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
+  m_Height: 11.69
+  m_BaseOffset: -5.9
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &354403740000677781
@@ -160,10 +160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15804f997b445084ca80ad72e4a5e081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destinationAction: {fileID: 11400000, guid: 0ae39a64eb271b34ba95b54039c52ac4, type: 2}
-  playerAction: {fileID: 11400000, guid: ef9124a12ff025c4595bc3084c2ef662, type: 2}
-  player: {fileID: 0}
-  destination: {fileID: 7575983004936201986}
+  playerTransform: {fileID: 0}
+  aiTransform: {fileID: 0}
 --- !u!114 &1983188038628605299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,7 +219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3083541540171503473}
   m_LocalRotation: {x: -0, y: -0.6929553, z: -0, w: 0.7209806}
-  m_LocalPosition: {x: 25.54748, y: 5.7725224, z: -7.879345}
+  m_LocalPosition: {x: -2.7, y: 5.7725224, z: 2.1}
   m_LocalScale: {x: 0.7497198, y: 0.74972004, z: 0.7497198}
   m_Children:
   - {fileID: 9081706688425981822}
@@ -903,7 +901,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9081706688853460467}
-  - component: {fileID: 9081706688853460470}
+  - component: {fileID: 1454532332380318570}
   - component: {fileID: 9081706688853460469}
   - component: {fileID: 9081706688853460468}
   m_Layer: 0
@@ -928,8 +926,8 @@ Transform:
   m_Father: {fileID: 9081706688214375214}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &9081706688853460470
-BoxCollider:
+--- !u!136 &1454532332380318570
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -938,9 +936,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.3, y: 1.3, z: 1.12}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.85, z: 0}
 --- !u!114 &9081706688853460469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1047,7 +1046,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  switchData: {fileID: 0}
+  switchData: {fileID: 11400000, guid: 3c6823fccdff21d4ca1bfbab214cd510, type: 2}
 --- !u!114 &9081706688853460468
 MonoBehaviour:
   m_ObjectHideFlags: 0

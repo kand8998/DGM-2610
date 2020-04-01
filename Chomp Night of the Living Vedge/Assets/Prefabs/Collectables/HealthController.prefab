@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3936039ff62f25a429808437e67c1567, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otherObj: {fileID: 0}
+  otherObj: {fileID: 2823647809943723381}
 --- !u!1 &2823647810040016044
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,6 +236,12 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  boolTrueEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  switchData: {fileID: 11400000, guid: 3c6823fccdff21d4ca1bfbab214cd510, type: 2}
 --- !u!1 &2823647810274881976
 GameObject:
   m_ObjectHideFlags: 0

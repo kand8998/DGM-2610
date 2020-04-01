@@ -1,14 +1,13 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BillboardController : MonoBehaviour
 {
-    public Transform cam;
+    private Transform cam;
 
-//    private void Awake()
-//    {
-//        cam = Camera.main.transform;
-//    }
+    private void Awake()
+    {
+       cam = Camera.main.transform;
+    }
 
     private void LateUpdate()
     {
