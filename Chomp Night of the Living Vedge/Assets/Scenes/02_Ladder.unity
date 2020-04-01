@@ -290,6 +290,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1227395428, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069747078, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069747078, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6832669383652259550, guid: 8ffeddd2b67d14248948bb97a223f9ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -395,34 +407,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2069747078, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069747078, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 841138001767341815, guid: 8ffeddd2b67d14248948bb97a223f9ab,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 841138001767341815, guid: 8ffeddd2b67d14248948bb97a223f9ab,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598018737065345237, guid: 8ffeddd2b67d14248948bb97a223f9ab,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598018737065345237, guid: 8ffeddd2b67d14248948bb97a223f9ab,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7586715211994547742, guid: 8ffeddd2b67d14248948bb97a223f9ab,
         type: 3}
       propertyPath: m_IsActive
@@ -454,15 +438,31 @@ PrefabInstance:
       propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 334128497}
-    - target: {fileID: 1227395428, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7710994649115419, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 102900000, guid: 5c17ed06eb6cfc6479eae359229e769d,
         type: 3}
+    - target: {fileID: 841138001767341815, guid: 8ffeddd2b67d14248948bb97a223f9ab,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 841138001767341815, guid: 8ffeddd2b67d14248948bb97a223f9ab,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598018737065345237, guid: 8ffeddd2b67d14248948bb97a223f9ab,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598018737065345237, guid: 8ffeddd2b67d14248948bb97a223f9ab,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8893822026060976738, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
@@ -769,6 +769,11 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442528993532345101, guid: fab052754188df64a8ee91c4d32d19c2,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fab052754188df64a8ee91c4d32d19c2, type: 3}
