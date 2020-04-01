@@ -4,7 +4,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class AiFollow : MonoBehaviour
 {
-    public GameAction destinationAction, playerAction;
+   // public GameAction destinationAction, playerAction;
     private NavMeshAgent agent;
     public Transform playerTransform, aiTransform;
     private Transform destination;
@@ -12,8 +12,8 @@ public class AiFollow : MonoBehaviour
     {
         destination = aiTransform;
         agent = GetComponent<NavMeshAgent>();
-        destinationAction.action += DestinationSelfSet;
-        playerAction.action += DestinationPlayerSet;
+//        destinationAction.action += DestinationSelfSet;
+//        playerAction.action += DestinationPlayerSet;
     }
     
     private void Update()
@@ -21,13 +21,13 @@ public class AiFollow : MonoBehaviour
         agent.destination = destination.position;
     }
 
-    private void DestinationSelfSet()
+    public void DestinationSelfSet()
     {
         agent.destination = destination.position;
         destination = aiTransform;
     }
 
-    private void DestinationPlayerSet()
+    public void DestinationPlayerSet()
     {
         agent.destination = destination.position;
         destination = playerTransform;

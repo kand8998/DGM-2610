@@ -9,8 +9,7 @@ public class CharacterMovement : MoveBase
 
     public float walkSpeed = 30f;
     public float sprintSpeed = 60f;
-
-    private bool canRun = true;
+    
     private void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -49,23 +48,13 @@ public class CharacterMovement : MoveBase
 
     private void SpeedIncrease()
     {
-        if (!canRun) return;
         moveSpeed = sprintSpeed;
         speedUpEvent.Invoke();
-        canRun = false;
-        StartCoroutine(nameof(WaitAndCheck));
     }
 
     private void SpeedDecrease()
     {
         moveSpeed = walkSpeed;
         speedDownEvent.Invoke();
-    }
-
-    private IEnumerator WaitAndCheck()
-    {
-        yield return new WaitForSeconds(2);
-        canRun = true;
-        Debug.Log("Can you run now?");
     }
 }
