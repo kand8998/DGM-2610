@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1982176397668941408}
   - component: {fileID: 1982176397668941411}
   - component: {fileID: 1982176397668941410}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Player Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67,7 +67,7 @@ MonoBehaviour:
   rotationSpeed: 80
   gravity: 9.81
   moveSpeed: 10
-  jumpCountMax: 2
+  jumpCountMax: 1
   speedUpEvent:
     m_PersistentCalls:
       m_Calls:
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 1982176397744431230}
   - component: {fileID: 1982176397744431229}
   - component: {fileID: 1982176397744431228}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 1982176398056943091}
   - component: {fileID: 1982176398056943102}
   - component: {fileID: 1982176398056943089}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 1982176398182157408}
   - component: {fileID: 1982176398182157423}
   - component: {fileID: 1982176398182157422}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Ear (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1982176398288813318}
   - component: {fileID: 1982176398288813319}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Character Obj Controllers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 1982176398489528778}
   - component: {fileID: 1982176398489528777}
   - component: {fileID: 1982176398489528776}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Eyes (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,7 +494,7 @@ GameObject:
   - component: {fileID: 1982176398522534710}
   - component: {fileID: 1982176398522534708}
   - component: {fileID: 1982176398522534711}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Attack Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -714,7 +714,7 @@ GameObject:
   - component: {fileID: 1982176398550736690}
   - component: {fileID: 1518794524}
   - component: {fileID: 5004174877604161774}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Character Obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 1982176398603399905}
   - component: {fileID: 1982176398603399904}
   - component: {fileID: 1982176398603399907}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Attack Indicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1122,7 +1122,7 @@ GameObject:
   - component: {fileID: 1982176398934145976}
   - component: {fileID: 1982176398934145959}
   - component: {fileID: 1982176398934145958}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1200,7 +1200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2625083620278134157}
   - component: {fileID: 7122878205258177320}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: spawn location
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
