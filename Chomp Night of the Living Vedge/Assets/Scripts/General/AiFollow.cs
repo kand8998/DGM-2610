@@ -6,12 +6,12 @@ public class AiFollow : MonoBehaviour
 {
     public GameAction destinationAction, playerAction;
     private NavMeshAgent agent;
-    public Transform player, destination;
+    public Transform playerTransform, aiTransform;
+    private Transform destination;
     private void Start()
     {
-        destination = player;
+        destination = aiTransform;
         agent = GetComponent<NavMeshAgent>();
-        
         destinationAction.action += DestinationSelfSet;
         playerAction.action += DestinationPlayerSet;
     }
@@ -19,18 +19,17 @@ public class AiFollow : MonoBehaviour
     private void Update()
     { 
         agent.destination = destination.position;
-        destination = player;
-     }
+    }
 
     private void DestinationSelfSet()
     {
         agent.destination = destination.position;
-        destination = destination;
+        destination = aiTransform;
     }
 
     private void DestinationPlayerSet()
     {
         agent.destination = destination.position;
-        destination = player;
+        destination = playerTransform;
     }
 }
