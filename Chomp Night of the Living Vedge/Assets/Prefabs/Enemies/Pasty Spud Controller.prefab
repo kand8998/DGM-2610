@@ -87,7 +87,6 @@ GameObject:
   - component: {fileID: 6313696968222591090}
   - component: {fileID: 9057201202791660292}
   - component: {fileID: 4203711976847655141}
-  - component: {fileID: 2681962384255537667}
   m_Layer: 0
   m_Name: Enemy Mov
   m_TagString: Untagged
@@ -144,41 +143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15804f997b445084ca80ad72e4a5e081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
-  aiTransform: {fileID: 0}
---- !u!114 &2681962384255537667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2743334083878952725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ea11e2a27c4e5b49ae8daf41e281266, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 0ae39a64eb271b34ba95b54039c52ac4, type: 2}
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  awakeEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  playerTransform: {fileID: 1982176397668941408, guid: e37e39a4c473abd42aa7a030fd6310a1,
+    type: 3}
+  aiTransform: {fileID: 6313696968222591090}
 --- !u!1 &2984889602956380413
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +157,6 @@ GameObject:
   - component: {fileID: 8909937936396446416}
   - component: {fileID: 2908523068722060651}
   - component: {fileID: 2526504263111201801}
-  - component: {fileID: 4616266689014035675}
   m_Layer: 0
   m_Name: eye
   m_TagString: Untagged
@@ -257,20 +223,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &4616266689014035675
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2984889602956380413}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4662696254367686861
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,7 +384,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 7399046070148848398}
+      - m_Target: {fileID: 0}
         m_MethodName: DestroyThisObject
         m_Mode: 1
         m_Arguments:
@@ -504,19 +456,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: ef9124a12ff025c4595bc3084c2ef662, type: 2}
-        m_MethodName: Raise
+      - m_Target: {fileID: 4203711976847655141}
+        m_MethodName: DestinationPlayerSet
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -542,19 +483,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 0ae39a64eb271b34ba95b54039c52ac4, type: 2}
-        m_MethodName: Raise
+      - m_Target: {fileID: 4203711976847655141}
+        m_MethodName: DestinationSelfSet
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -679,7 +609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5aeff889c12848488ef573c40364a20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
 --- !u!1 &4662696255199926653
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,7 +1125,7 @@ GameObject:
   - component: {fileID: 3309374089336228578}
   - component: {fileID: 7252124330210432438}
   m_Layer: 0
-  m_Name: Enemy Body Obj (1)
+  m_Name: 'Enemy Body Obj '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1285,7 +1214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7830087132612845614}
-  - component: {fileID: 7399046070148848398}
+  - component: {fileID: 7822315831922945019}
   m_Layer: 0
   m_Name: Single Spud Controller
   m_TagString: Untagged
@@ -1308,7 +1237,7 @@ Transform:
   m_Father: {fileID: 6152690027725961883}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7399046070148848398
+--- !u!114 &7822315831922945019
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1317,10 +1246,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 5914624134344760790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3936039ff62f25a429808437e67c1567, type: 3}
+  m_Script: {fileID: 11500000, guid: 2df9a391650348e4c9b3e5343759cf29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otherObj: {fileID: 5914624134344760790}
+  beforeDestroyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  afterDestroyEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6152690027830964070}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &6152690027725961880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,7 +1318,7 @@ GameObject:
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6152690027830964073
 Transform:
   m_ObjectHideFlags: 0
@@ -1410,7 +1359,6 @@ GameObject:
   - component: {fileID: 2750885379262456428}
   - component: {fileID: 3401960850177487385}
   - component: {fileID: 7448301950066655747}
-  - component: {fileID: 8128620827519922630}
   m_Layer: 0
   m_Name: eye
   m_TagString: Untagged
@@ -1477,17 +1425,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &8128620827519922630
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7957823987982618112}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
