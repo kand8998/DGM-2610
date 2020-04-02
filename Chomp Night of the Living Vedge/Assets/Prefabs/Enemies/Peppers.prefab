@@ -4952,7 +4952,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 11400000, guid: 4951452ccec3a4e43a09990122a29989, type: 2}
-        m_MethodName: UpdateValueLimitZero
+        m_MethodName: UpdateValueLowerLimit
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6070,5 +6070,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15804f997b445084ca80ad72e4a5e081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
   aiTransform: {fileID: 285119298890548531}

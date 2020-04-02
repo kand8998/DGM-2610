@@ -14,7 +14,7 @@ public class FloatData : ScriptableObject
 
     public void UpdateValueLimitZero(float amount)
     {
-        if (value > 0)
+        if (value > 0 & value < 1)
         {
             UpdateValue(amount);
         }
@@ -28,5 +28,18 @@ public class FloatData : ScriptableObject
     public void ChangeAmount(float amount)
     {
         value = amount;
+    }
+    
+    public void UpdateValueLowerLimit(float amount)
+    {
+        if (value > 0)
+        {
+            UpdateValue(amount);
+        }
+        else
+        {
+            value = 0;
+            zeroEvent.Invoke();
+        }
     }
 }
