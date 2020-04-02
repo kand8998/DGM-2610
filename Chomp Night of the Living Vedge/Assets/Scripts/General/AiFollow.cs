@@ -5,12 +5,13 @@ using UnityEngine.AI;
 public class AiFollow : MonoBehaviour
 {
     private NavMeshAgent agent;
-    public Transform playerTransform, aiTransform;
-    private Transform destination;
+    public Transform aiTransform;
+    private Transform destination, playerTransform;
     private void Start()
     {
         destination = aiTransform;
         agent = GetComponent<NavMeshAgent>();
+        playerTransform = PlayerManager.instance.player.transform;
     }
     
     private void Update()
