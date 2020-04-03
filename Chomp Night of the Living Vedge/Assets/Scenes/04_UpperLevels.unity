@@ -5082,11 +5082,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.6057465
       objectReference: {fileID: 0}
-    - target: {fileID: 296178893006735619, guid: 2e5cbb5c14c31b644bd0f22862c5ff0f,
-        type: 3}
-      propertyPath: speed
-      value: 80
-      objectReference: {fileID: 0}
     - target: {fileID: 296178893211429979, guid: 2e5cbb5c14c31b644bd0f22862c5ff0f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5096,6 +5091,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -54
+      objectReference: {fileID: 0}
+    - target: {fileID: 296178893006735619, guid: 2e5cbb5c14c31b644bd0f22862c5ff0f,
+        type: 3}
+      propertyPath: speed
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5cbb5c14c31b644bd0f22862c5ff0f, type: 3}
@@ -7286,6 +7286,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 13.994509
       objectReference: {fileID: 0}
+    - target: {fileID: 7193767449000706381, guid: ecf914c6daff5cd4ab6884478b618c65,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7990106
+      objectReference: {fileID: 0}
     - target: {fileID: 5494163708644742078, guid: ecf914c6daff5cd4ab6884478b618c65,
         type: 3}
       propertyPath: boolTrueEvent.m_PersistentCalls.m_Calls.Array.size
@@ -7333,11 +7338,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1da50e4c705191443981f24eb00dcb23,
         type: 2}
-    - target: {fileID: 7193767449000706381, guid: ecf914c6daff5cd4ab6884478b618c65,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.7990106
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecf914c6daff5cd4ab6884478b618c65, type: 3}
 --- !u!4 &944735485 stripped
