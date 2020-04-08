@@ -17,4 +17,9 @@ public class TextMeshBehaviour : MonoBehaviour
     {
         textObj.text = floatDataObj.value.ToString();
     }
+    
+    public void UpdateText(StringData stringObj)
+    {
+        textObj.text = stringObj.text.ToString();
+    }
 }
