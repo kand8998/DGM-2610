@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6210603485969245205}
   - component: {fileID: 610811415237935002}
   - component: {fileID: 2562724570497623872}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4710,7 +4710,7 @@ GameObject:
   - component: {fileID: 6597179336116084794}
   - component: {fileID: 4356551501714683948}
   - component: {fileID: 4872568751098285345}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4874,7 +4874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503931825822618959}
   - component: {fileID: 1503931825822618956}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Enemy Health Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4997,7 +4997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503931825883068703}
   - component: {fileID: 1503931825883068702}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Attack Zone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5208,7 +5208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503931827089734676}
   - component: {fileID: 1503931827089734679}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Instancing
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -5662,6 +5662,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: e96fee18b36a59147bae794a43dccf84, type: 2}
+        m_MethodName: OnDebug
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pepper is Hitting Something
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   triggerExitEvent:
@@ -5698,7 +5709,7 @@ GameObject:
   - component: {fileID: 3253890607601029327}
   - component: {fileID: 8356182910206427472}
   - component: {fileID: 2304810920711298110}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Enemy Body Obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5798,7 +5809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6075058544795380829
 Transform:
   m_ObjectHideFlags: 0
@@ -5853,6 +5864,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: e96fee18b36a59147bae794a43dccf84, type: 2}
+        m_MethodName: OnDebug
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: It's Matching
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   noMatchEvent:
@@ -5885,7 +5907,7 @@ GameObject:
   - component: {fileID: 4230123823484774424}
   - component: {fileID: 8963540791218600618}
   - component: {fileID: 8747585413211286436}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5975,7 +5997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4619935289196025052}
   - component: {fileID: 4619935289196025043}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Enemy Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6019,7 +6041,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4619935289927923009}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Enemy Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6050,7 +6072,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4619935290041390426}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Peppers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6083,7 +6105,7 @@ GameObject:
   - component: {fileID: 285119298890548531}
   - component: {fileID: 3016170456153044549}
   - component: {fileID: 7943406672497331620}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Enemy Mov
   m_TagString: Untagged
   m_Icon: {fileID: 0}
