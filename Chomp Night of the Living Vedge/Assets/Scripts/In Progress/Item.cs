@@ -12,5 +12,6 @@ public class Item : ScriptableObject
     public virtual void Use()
     {
         useEvent.Invoke();
+        Debug.Log("Using..." + name);
     }
 }
