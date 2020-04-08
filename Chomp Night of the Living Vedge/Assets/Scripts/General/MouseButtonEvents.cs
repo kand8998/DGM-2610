@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 public class MouseButtonEvents : MonoBehaviour
 {
-    public float waitTime = 3;
+    public float waitTime = 0.5f;
     
     public UnityEvent mouseButtonDownEvent, mouseButtonUpEvent, 
         rightButtonDownEvent, rightButtonUpEvent;
