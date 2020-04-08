@@ -14,6 +14,7 @@ public class InstanceBehaviour : MonoBehaviour
     {
         Instantiate(instanceObj);
     }
+    
     private void InstanceAtLocation()
     {
         Instantiate(instanceObj, location.position, location.rotation);
