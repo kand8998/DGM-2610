@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1982176397668941408}
   - component: {fileID: 1982176397668941411}
   - component: {fileID: 1982176397668941410}
+  - component: {fileID: 284710742}
   m_Layer: 14
   m_Name: Player Controller
   m_TagString: Untagged
@@ -126,8 +127,22 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   speedUpAction: {fileID: 11400000, guid: e9ac816107d775d46817081c26633657, type: 2}
   slowDownAction: {fileID: 11400000, guid: fd30d5c57a7344549bf62a691c225219, type: 2}
-  walkSpeed: 50
+  walkSpeed: 55
   sprintSpeed: 100
+--- !u!114 &284710742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982176397668941413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96cd8701c9a4b8b42a7b7cafa9da7dc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetFloat: 10
+  offsetAction: {fileID: 11400000, guid: db71b61a1d5ac2a4da2439f435f0e1a2, type: 2}
 --- !u!1 &1982176397744431217
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,6 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dfed90628ac0a149afeb4eb4998dec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waitTime: 3
   mouseButtonDownEvent:
     m_PersistentCalls:
       m_Calls:
