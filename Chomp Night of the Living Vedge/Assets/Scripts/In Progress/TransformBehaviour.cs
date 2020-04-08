@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class TransformBehavior : MonoBehaviour
+public class TransformBehaviour : MonoBehaviour
 {
     private Transform transformObj;
 
