@@ -22,4 +22,9 @@ public class TextMeshBehaviour : MonoBehaviour
     {
         textObj.text = stringObj.text.ToString();
     }
+    
+    public void UpdateText(StringListData stringListObj)
+    {
+        textObj.text = stringListObj.ToString();
+    }
 }
