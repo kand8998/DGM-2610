@@ -121,7 +121,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 13.76
   m_Speed: 20
-  m_Acceleration: 8
+  m_Acceleration: 18
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
@@ -822,7 +822,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.3
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.85, z: 0}
@@ -945,6 +945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7919c0f6a69ca7a4e93a19323fdf2a0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waitTime: 0.5
   mousedownEvent:
     m_PersistentCalls:
       m_Calls:
@@ -977,6 +978,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 2100000, guid: ef8ca8f277e47e84e81b1f655406c307,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: db71b61a1d5ac2a4da2439f435f0e1a2, type: 2}
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
