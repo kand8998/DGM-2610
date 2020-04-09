@@ -82,16 +82,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.50572616
       objectReference: {fileID: 0}
-    - target: {fileID: 4377353303122018050, guid: b5c24f1ebe63ca244af53b489a6e0fe1,
-        type: 3}
-      propertyPath: collisionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
-      value: -0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4377353304786884719, guid: b5c24f1ebe63ca244af53b489a6e0fe1,
-        type: 3}
-      propertyPath: collisionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
-      value: -0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 4377353302867187852, guid: b5c24f1ebe63ca244af53b489a6e0fe1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -102,5 +92,39 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 909f8545ed96434418f05ac23875bfa2, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 2228452376724560259, guid: b5c24f1ebe63ca244af53b489a6e0fe1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228452376724560259, guid: b5c24f1ebe63ca244af53b489a6e0fe1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.28459
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520480870155928401, guid: b5c24f1ebe63ca244af53b489a6e0fe1,
+        type: 3}
+      propertyPath: nameIDObj
+      value: 
+      objectReference: {fileID: 11400000, guid: 6fe8cdaa0ac523945bf240866347ef74,
+        type: 2}
+    - target: {fileID: 8911414711244336183, guid: b5c24f1ebe63ca244af53b489a6e0fe1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.43999958
+      objectReference: {fileID: 0}
+    - target: {fileID: 8911414711244336183, guid: b5c24f1ebe63ca244af53b489a6e0fe1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.28459
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031661550461350971, guid: b5c24f1ebe63ca244af53b489a6e0fe1,
+        type: 3}
+      propertyPath: nameIDObj
+      value: 
+      objectReference: {fileID: 11400000, guid: 6fe8cdaa0ac523945bf240866347ef74,
+        type: 2}
+    m_RemovedComponents:
+    - {fileID: 6921957428358099653, guid: b5c24f1ebe63ca244af53b489a6e0fe1, type: 3}
+    - {fileID: 4219977498147513942, guid: b5c24f1ebe63ca244af53b489a6e0fe1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b5c24f1ebe63ca244af53b489a6e0fe1, type: 3}
