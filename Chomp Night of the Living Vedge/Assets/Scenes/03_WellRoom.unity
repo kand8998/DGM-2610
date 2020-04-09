@@ -2211,7 +2211,7 @@ PrefabInstance:
     - target: {fileID: 1556844407462808557, guid: fee3ff45069d8fa4987d0663ba922e3f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -160.8
+      value: -161.7
       objectReference: {fileID: 0}
     - target: {fileID: 1556844407462808557, guid: fee3ff45069d8fa4987d0663ba922e3f,
         type: 3}
@@ -4069,6 +4069,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1465809638}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1379250172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1379250173}
+  - component: {fileID: 1379250174}
+  m_Layer: 0
+  m_Name: Bumper (70)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1379250173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379250172}
+  m_LocalRotation: {x: -0, y: -0.40365863, z: -0, w: 0.9149097}
+  m_LocalPosition: {x: -12.6, y: 74.7, z: -44.2}
+  m_LocalScale: {x: 11.372893, y: 19.455536, z: 9.333209}
+  m_Children: []
+  m_Father: {fileID: 1599135806}
+  m_RootOrder: 70
+  m_LocalEulerAnglesHint: {x: 0, y: -47.614002, z: 0}
+--- !u!65 &1379250174
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379250172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3.92, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1430053357
 GameObject:
   m_ObjectHideFlags: 0
@@ -4741,6 +4785,7 @@ Transform:
   - {fileID: 698811306}
   - {fileID: 1774415642}
   - {fileID: 532060429}
+  - {fileID: 1379250173}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5861,6 +5906,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 960355245, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: a8cc48851cc09274995fddc4e5230faf,
+        type: 2}
+    - target: {fileID: 552795815, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 057dcb9a77057f7499e25478dd1d9353,
+        type: 2}
+    - target: {fileID: 186584931, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: d199efc33cda6e6479c39a9919ecaf01,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
 --- !u!1 &1984799449
