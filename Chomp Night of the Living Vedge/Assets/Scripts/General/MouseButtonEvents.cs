@@ -5,10 +5,9 @@ using UnityEngine.Events;
 public class MouseButtonEvents : MonoBehaviour
 {
     public float waitTime = 0.5f;
-    
-    public UnityEvent mouseButtonDownEvent, mouseButtonUpEvent, 
-        rightButtonDownEvent, rightButtonUpEvent;
-    
+
+    public UnityEvent mouseButtonDownEvent, mouseButtonUpEvent;
+
     private bool canUseMouse = true;
 
     private void Update()
@@ -25,16 +24,6 @@ public class MouseButtonEvents : MonoBehaviour
         {
             LeftMouseUp();
         }
-
-        if (Input.GetMouseButtonDown(1))
-        {
-            RightMouseDown();
-        }
-
-        if (Input.GetMouseButtonUp(1))
-        {
-            RightMouseUp();
-        }
     }
 
     private void LeftMouseDown()
@@ -48,16 +37,6 @@ public class MouseButtonEvents : MonoBehaviour
         canUseMouse = false;
         StartTimer();
     }
-  
-    private void RightMouseDown()
-    {
-        rightButtonDownEvent.Invoke();
-    }
-    private void RightMouseUp()
-    {
-        rightButtonUpEvent.Invoke();
-    }
-
 
     private void StartTimer()
     {
