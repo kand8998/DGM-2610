@@ -1,18 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class PaymentController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public FloatData valueObj;
+    public UnityEvent badPaymentEvent, goodPaymentEvent;
 
-    // Update is called once per frame
-    void Update()
+    public void MakePayment()
     {
-        
+        if (valueObj.value <= 200)
+        {
+            badPaymentEvent.Invoke();
+        }
+
+        if (valueObj.value > 200)
+        {
+            goodPaymentEvent.Invoke();
+        }
     }
 }
