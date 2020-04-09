@@ -8,6 +8,6 @@ public class CollisionEvents : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
         collisionEvent.Invoke();
-        Debug.Log("should be colliding");
+       
     }
 }
