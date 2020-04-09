@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4377353302867187853}
   - component: {fileID: 4377353302867187827}
   - component: {fileID: 4377353302867187852}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Vine 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4377353303122018048}
   - component: {fileID: 4377353303122018049}
   - component: {fileID: 4377353303122018050}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Vine 02 Cont
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,23 +155,34 @@ MonoBehaviour:
   collisionEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: c186c3b7ffaca02449aecaf52ba17b8a, type: 2}
-        m_MethodName: UpdateValueLimitZero
+      - m_Target: {fileID: 11400000, guid: 4951452ccec3a4e43a09990122a29989, type: 2}
+        m_MethodName: UpdateValueLowerLimit
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -0.1
+          m_FloatArgument: -15
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 65f2e85fc2c518b4b9b890c78b843040, type: 2}
+      - m_Target: {fileID: 11400000, guid: b26e7a400763f7b4e910ac0cc4584b45, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -184,7 +195,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  switchData: {fileID: 0}
 --- !u!1 &4377353303420941729
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,7 +205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4377353303420941728}
   - component: {fileID: 4377353303420941735}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VineTrap Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +258,7 @@ GameObject:
   - component: {fileID: 4377353304114532129}
   - component: {fileID: 4377353304114532135}
   - component: {fileID: 4377353304114532128}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Vine 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +336,7 @@ GameObject:
   - component: {fileID: 4377353304786884717}
   - component: {fileID: 4377353304786884718}
   - component: {fileID: 4377353304786884719}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Vine 01 Cont
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,18 +402,18 @@ MonoBehaviour:
   collisionEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: c186c3b7ffaca02449aecaf52ba17b8a, type: 2}
-        m_MethodName: UpdateValueLimitZero
+      - m_Target: {fileID: 11400000, guid: 4951452ccec3a4e43a09990122a29989, type: 2}
+        m_MethodName: UpdateValueLowerLimit
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -0.1
+          m_FloatArgument: -15
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 65f2e85fc2c518b4b9b890c78b843040, type: 2}
+      - m_Target: {fileID: 11400000, guid: b26e7a400763f7b4e910ac0cc4584b45, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
@@ -421,4 +431,3 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  switchData: {fileID: 0}
