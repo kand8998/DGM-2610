@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 4377353303122018051}
   - component: {fileID: 4377353303122018048}
   - component: {fileID: 4377353303122018049}
-  - component: {fileID: 4377353303122018050}
+  - component: {fileID: 4219977498147513942}
   m_Layer: 10
   m_Name: Vine 02 Cont
   m_TagString: Untagged
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4377353303122018050
+--- !u!114 &4219977498147513942
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,52 +149,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4377353303122018076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5531425eb12bc534385500594f9d1349, type: 3}
+  m_Script: {fileID: 11500000, guid: 118c3c840584f4c4f99ec15ad0ceb232, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 4951452ccec3a4e43a09990122a29989, type: 2}
-        m_MethodName: UpdateValueLowerLimit
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -15
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: b26e7a400763f7b4e910ac0cc4584b45, type: 2}
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  boolTrueEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  nameIDObj: {fileID: 11400000, guid: 15a6b6a76dd9a8d4e808306d90b050f1, type: 2}
 --- !u!1 &4377353303420941729
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,7 +293,7 @@ GameObject:
   - component: {fileID: 4377353304786884712}
   - component: {fileID: 4377353304786884717}
   - component: {fileID: 4377353304786884718}
-  - component: {fileID: 4377353304786884719}
+  - component: {fileID: 6921957428358099653}
   m_Layer: 10
   m_Name: Vine 01 Cont
   m_TagString: Untagged
@@ -387,7 +345,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4377353304786884719
+--- !u!114 &6921957428358099653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -396,38 +354,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4377353304786884713}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5531425eb12bc534385500594f9d1349, type: 3}
+  m_Script: {fileID: 11500000, guid: 118c3c840584f4c4f99ec15ad0ceb232, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 4951452ccec3a4e43a09990122a29989, type: 2}
-        m_MethodName: UpdateValueLowerLimit
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -15
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: b26e7a400763f7b4e910ac0cc4584b45, type: 2}
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  boolTrueEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  nameIDObj: {fileID: 11400000, guid: 15a6b6a76dd9a8d4e808306d90b050f1, type: 2}

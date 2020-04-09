@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1982176397668941411}
   - component: {fileID: 1982176397668941410}
   - component: {fileID: 284710742}
+  - component: {fileID: 5301631590223463187}
   m_Layer: 14
   m_Name: Player Controller
   m_TagString: Untagged
@@ -143,6 +144,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   offsetFloat: 10
   offsetAction: {fileID: 11400000, guid: db71b61a1d5ac2a4da2439f435f0e1a2, type: 2}
+--- !u!114 &5301631590223463187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982176397668941413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c82ab4ccf50d2e949beb8f258fa5f827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIDObj: {fileID: 11400000, guid: 2e5a765b5e4f74b4c8dcc2b7e1702aa6, type: 2}
+  holdTime: 0
+  triggerEnterMatches:
+  - nameIDObj: {fileID: 11400000, guid: 15a6b6a76dd9a8d4e808306d90b050f1, type: 2}
+    workEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 4951452ccec3a4e43a09990122a29989, type: 2}
+          m_MethodName: UpdateValueLowerLimit
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: -15
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: b26e7a400763f7b4e910ac0cc4584b45, type: 2}
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    delayedEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - nameIDObj: {fileID: 11400000, guid: 6fe8cdaa0ac523945bf240866347ef74, type: 2}
+    workEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 4951452ccec3a4e43a09990122a29989, type: 2}
+          m_MethodName: UpdateValueLowerLimit
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: -20
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: b26e7a400763f7b4e910ac0cc4584b45, type: 2}
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    delayedEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  triggerExitMatches: []
 --- !u!1 &1982176397744431217
 GameObject:
   m_ObjectHideFlags: 0
