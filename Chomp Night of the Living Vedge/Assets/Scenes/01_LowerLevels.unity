@@ -19343,6 +19343,39 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: e96fee18b36a59147bae794a43dccf84,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: OnDebug
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: The card action was invoked
+      objectReference: {fileID: 0}
     - target: {fileID: 6832669383652259105, guid: 8ffeddd2b67d14248948bb97a223f9ab,
         type: 3}
       propertyPath: m_Name
@@ -19350,11 +19383,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2069747078, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2069747078, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6832669383652259550, guid: 8ffeddd2b67d14248948bb97a223f9ab,
         type: 3}
@@ -19489,54 +19522,21 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1982783848, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1982783848, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1982783848, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+    - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_havePropertiesChanged
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1982783848, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1982783848, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: e96fee18b36a59147bae794a43dccf84,
-        type: 2}
-    - target: {fileID: 1982783848, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: OnDebug
-      objectReference: {fileID: 0}
-    - target: {fileID: 1982783848, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 1982783848, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: The card action was invoked
-      objectReference: {fileID: 0}
-    - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 260863100, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_havePropertiesChanged
@@ -19628,7 +19628,9 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 362802525, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+    - {fileID: 362802524, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
 --- !u!1 &1729032944 stripped
 GameObject:
@@ -19796,6 +19798,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517556343161605078, guid: bc9b967fa2ced5d428ad926b2dd5208b,
+        type: 3}
+      propertyPath: speed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6302589940400359633, guid: bc9b967fa2ced5d428ad926b2dd5208b,
+        type: 3}
+      propertyPath: m_Speed
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 7670704539318348760, guid: bc9b967fa2ced5d428ad926b2dd5208b,
         type: 3}
