@@ -5599,18 +5599,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1473101001}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &580084729 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5517729406625561973, guid: 8ffeddd2b67d14248948bb97a223f9ab,
-    type: 3}
-  m_PrefabInstance: {fileID: 1729032943}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67e0992b85d96254087fa069d64e2d4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &584945285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17133,52 +17121,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5301631590223463187, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: triggerEnterMatches.Array.data[0].workEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5301631590223463187, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: triggerEnterMatches.Array.data[1].workEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: rightButtonDownEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: rightButtonDownEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: rightButtonDownEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: rightButtonDownEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: e96fee18b36a59147bae794a43dccf84,
-        type: 2}
-    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: rightButtonDownEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: OnDebug
-      objectReference: {fileID: 0}
-    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: rightButtonDownEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 1982176398522534708, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: rightButtonDownEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: Editor mouse is Registering
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e37e39a4c473abd42aa7a030fd6310a1, type: 3}
 --- !u!4 &1580585785 stripped
@@ -17219,56 +17161,6 @@ Transform:
   m_Father: {fileID: 1192997120}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1599814135 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1982176398288813337, guid: e37e39a4c473abd42aa7a030fd6310a1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1574490670}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1599814138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599814135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 659c5ef40f5d2fc4cac03cf2391e0045, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rightButtonDownEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: e9ac816107d775d46817081c26633657, type: 2}
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  rightButtonUpEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: fd30d5c57a7344549bf62a691c225219, type: 2}
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1602304203
 GameObject:
   m_ObjectHideFlags: 0
@@ -19413,11 +19305,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2069747078, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2069747078, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6832669383652259550, guid: 8ffeddd2b67d14248948bb97a223f9ab,
         type: 3}
@@ -19536,14 +19428,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1656550148, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 580084729}
-    - target: {fileID: 1656550148, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UseItem
-      objectReference: {fileID: 0}
     - target: {fileID: 624362338, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_havePropertiesChanged
       value: 1
@@ -19554,19 +19438,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 260863100, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_havePropertiesChanged
