@@ -34,6 +34,10 @@ public class InventorySlot : MonoBehaviour
         if (item != null)
         {
             item.Use();
+            if (item.isDefaultItem = false)
+            {
+                ClearSlot();
+            }
         }
     }
 }
