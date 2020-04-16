@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Restart : MonoBehaviour
+public class SetLocation : MonoBehaviour
 
 {
     public Vector3Data location;
@@ -14,5 +14,4 @@ public class Restart : MonoBehaviour
     {
         checkPoint.value = location.value;
     }
-
 }
