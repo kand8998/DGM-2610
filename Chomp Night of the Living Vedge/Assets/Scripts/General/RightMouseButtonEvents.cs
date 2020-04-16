@@ -4,9 +4,11 @@ using UnityEngine.Events;
 public class RightMouseButtonEvents : MonoBehaviour
 {
     public UnityEvent rightButtonDownEvent, rightButtonUpEvent;
-
+    public BoolData canSprint;
+    
     private void Update()
     {
+        if (!canSprint.Switch) return;
         if (Input.GetMouseButtonDown(1))
         {
             RightMouseDown();
