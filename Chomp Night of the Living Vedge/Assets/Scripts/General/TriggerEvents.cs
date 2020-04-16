@@ -9,7 +9,7 @@ public class TriggerEvents : MonoBehaviour
     {
         triggerEnterEvent.Invoke();
         
-        if (switchData.Switch == true)
+        if (!switchData.Switch)
         {
             boolTrueEvent.Invoke();
         }
