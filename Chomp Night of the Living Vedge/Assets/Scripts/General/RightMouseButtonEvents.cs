@@ -17,7 +17,6 @@ public class RightMouseButtonEvents : MonoBehaviour
         
         if (Input.GetMouseButtonUp(1))
         {
-            if (!canSprint.Switch) return;
             RightMouseUp();
         }
     }

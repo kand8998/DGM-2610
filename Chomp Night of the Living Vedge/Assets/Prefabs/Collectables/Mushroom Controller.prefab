@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 1936113384720662613}
   - component: {fileID: 1936113384720662615}
   - component: {fileID: 1936113384720662614}
-  m_Layer: 0
+  - component: {fileID: 593897332224436791}
+  - component: {fileID: 2280151259143197974}
+  m_Layer: 26
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,6 +61,61 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameIDObj: {fileID: 11400000, guid: 5573f4b2cc181494196bb04ccbf75aec, type: 2}
+--- !u!114 &593897332224436791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936113384720662612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cf1b093cbba688499dd337a40d19b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2674209518043945219}
+        m_MethodName: DestroyThisObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  boolTrueEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  switchData: {fileID: 11400000, guid: 3c6823fccdff21d4ca1bfbab214cd510, type: 2}
+--- !u!54 &2280151259143197974
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936113384720662612}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1936113384744387668
 GameObject:
   m_ObjectHideFlags: 0
@@ -70,7 +127,7 @@ GameObject:
   - component: {fileID: 1936113384744387669}
   - component: {fileID: 1936113384744387671}
   - component: {fileID: 1936113384744387670}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: Upper Radish Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1936113385029733386}
   - component: {fileID: 1936113385029733387}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: BodyObjController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +257,7 @@ GameObject:
   - component: {fileID: 1936113385039356660}
   - component: {fileID: 1936113385039356662}
   - component: {fileID: 1936113385039356661}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: Stem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,7 +333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1936113385430646481}
   - component: {fileID: 1936113385430646482}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +401,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1936113386209949674}
-  m_Layer: 0
+  - component: {fileID: 2674209518043945219}
+  m_Layer: 26
   m_Name: Mushroom Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -367,3 +425,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2674209518043945219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936113386209949673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3936039ff62f25a429808437e67c1567, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherObj: {fileID: 1936113386209949673}
