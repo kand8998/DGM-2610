@@ -15528,6 +15528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf5dffa92c78fa24bb0c6126f8f78d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  paymentAmount: 300
   valueObj: {fileID: 11400000, guid: 4951452ccec3a4e43a09990122a29989, type: 2}
   badPaymentEvent:
     m_PersistentCalls:
@@ -19401,9 +19402,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 1139675722, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 1428396008, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_Name
+      value: Text Controller 11
       objectReference: {fileID: 0}
     - target: {fileID: 2069747078, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_havePropertiesChanged
@@ -19518,22 +19519,31 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 960355245, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 11400000, guid: c14593de31748e147926992cbeb029c7,
-        type: 2}
-    - target: {fileID: 552795815, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 11400000, guid: 80823e6dc6aee3e429eaa60a6153ec4c,
-        type: 2}
-    - target: {fileID: 186584931, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 11400000, guid: 05f5950ce96ac274aaac9475d1a0ba01,
-        type: 2}
+    - target: {fileID: 7710994649115419, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 445616301, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139675722, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -19763,30 +19773,25 @@ PrefabInstance:
       propertyPath: timerEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 1428396008, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_Name
-      value: Text Controller 11
-      objectReference: {fileID: 0}
     - target: {fileID: 2069747080, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 960355245, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: c14593de31748e147926992cbeb029c7,
+        type: 2}
+    - target: {fileID: 186584931, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 05f5950ce96ac274aaac9475d1a0ba01,
+        type: 2}
+    - target: {fileID: 552795815, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 80823e6dc6aee3e429eaa60a6153ec4c,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
 --- !u!1001 &1731709142
