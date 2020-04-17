@@ -3,19 +3,21 @@ using UnityEngine.Events;
 
 public class RightMouseButtonEvents : MonoBehaviour
 {
-    public UnityEvent rightButtonDownEvent, rightButtonUpEvent;
+    public UnityEvent rightButtonDownEvent, rightButtonUpEvent, checkEvent;
     public BoolData canSprint;
     
     private void Update()
     {
-        if (!canSprint.Switch) return;
         if (Input.GetMouseButtonDown(1))
         {
+            checkEvent.Invoke();
+            if (!canSprint.Switch) return;
             RightMouseDown();
         }
-
+        
         if (Input.GetMouseButtonUp(1))
         {
+            if (!canSprint.Switch) return;
             RightMouseUp();
         }
     }
