@@ -337,6 +337,28 @@ MonoBehaviour:
         m_Calls: []
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+  - nameIDObj: {fileID: 11400000, guid: 1ce513494e344fa4a9780948cc10cc21, type: 2}
+    workEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 3b44e75ebf87d354f9d74bb5d792d195, type: 2}
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    delayedEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   triggerExitMatches: []
 --- !u!114 &232017397616941217
 MonoBehaviour:
@@ -1369,7 +1391,7 @@ PrefabInstance:
     - target: {fileID: 3231015964631263090, guid: 9b1290cf3342806438e38c8579f744cf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.41
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3231015964631263090, guid: 9b1290cf3342806438e38c8579f744cf,
         type: 3}
@@ -1411,8 +1433,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7665548501054429655, guid: 9b1290cf3342806438e38c8579f744cf, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b1290cf3342806438e38c8579f744cf, type: 3}
 --- !u!4 &2625083620278134157 stripped
 Transform:

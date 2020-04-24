@@ -1,10 +1,9 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Item", menuName = "Inventory/InstanceItem")]
 public class ItemInstanceController : Item
 {
-    public GameObject location;
+    public TransformData location;
     public GameObject instanceObject;
     
     
@@ -16,6 +15,6 @@ public class ItemInstanceController : Item
     
     private void InstanceAtLocation()
     {
-        Instantiate(instanceObject, location.transform.position, location.transform.rotation);
+        Instantiate(instanceObject, location.value.transform.position, location.value.transform.rotation);
     }
 }
