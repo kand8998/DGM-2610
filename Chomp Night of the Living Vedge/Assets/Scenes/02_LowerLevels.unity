@@ -7955,12 +7955,6 @@ Transform:
   m_Father: {fileID: 1924871500}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &860354359 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2625083620278134157, guid: e37e39a4c473abd42aa7a030fd6310a1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1574490670}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &872658240
 GameObject:
   m_ObjectHideFlags: 0
@@ -17452,37 +17446,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1982176398550736691, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7122878205258177320, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: 8372a5bbed5455a4394f43e40485fe3b,
-        type: 2}
-    - target: {fileID: 7122878205258177320, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UpdateValue
-      objectReference: {fileID: 0}
-    - target: {fileID: 7122878205258177320, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7122878205258177320, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Transform, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 7122878205258177320, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 860354359}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e37e39a4c473abd42aa7a030fd6310a1, type: 3}
 --- !u!4 &1580585785 stripped

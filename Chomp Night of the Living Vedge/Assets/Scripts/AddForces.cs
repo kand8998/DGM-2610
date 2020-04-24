@@ -12,6 +12,7 @@ public class AddForces : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
+        Debug.Log("Collision was detected");
         if (!other.transform.CompareTag("Player")) return;
         var direction = (other.transform.position - transform.position).normalized;
         rigidbody.AddForce (direction * -forceValue);

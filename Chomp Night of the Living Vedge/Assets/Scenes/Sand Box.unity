@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17585103, g: 0.22005847, b: 0.30238736, a: 1}
+  m_IndirectSpecularColor: {r: 0.17793271, g: 0.22278024, b: 0.30490744, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -652,20 +652,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4963783507967347316, guid: e37e39a4c473abd42aa7a030fd6310a1,
+    - target: {fileID: 5301631590223463187, guid: e37e39a4c473abd42aa7a030fd6310a1,
         type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963783507967347316, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4963783507967347316, guid: e37e39a4c473abd42aa7a030fd6310a1,
-        type: 3}
-      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
+      propertyPath: triggerEnterMatches.Array.size
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e37e39a4c473abd42aa7a030fd6310a1, type: 3}
@@ -719,7 +709,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 21
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -744,14 +734,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707383722}
-  m_LocalRotation: {x: 0.4225704, y: -0, z: -0, w: 0.90633005}
+  m_LocalRotation: {x: 0.51176655, y: -0, z: -0, w: 0.8591245}
   m_LocalPosition: {x: -749, y: 1, z: -658}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 618047191}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 49.994003, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 61.563004, y: 0, z: 0}
 --- !u!1 &1826851998
 GameObject:
   m_ObjectHideFlags: 0
