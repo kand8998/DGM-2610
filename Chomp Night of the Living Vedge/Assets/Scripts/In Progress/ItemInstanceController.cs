@@ -1,19 +1,21 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
+[CreateAssetMenu(fileName = "New Item", menuName = "Inventory/InstanceItem")]
 public class ItemInstanceController : Item
 {
-    private Transform location;
-    
+    public GameObject location;
     public GameObject instanceObject;
+    
+    
     public override void Use()
     {
-        location = PlayerManager.instance.player.transform;
         base.Use();
         InstanceAtLocation();
     }
     
     private void InstanceAtLocation()
     {
-        Instantiate(instanceObject, location.position, location.rotation);
+        Instantiate(instanceObject, location.transform.position, location.transform.rotation);
     }
 }

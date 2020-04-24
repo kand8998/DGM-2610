@@ -31,13 +31,11 @@ public class InventorySlot : MonoBehaviour
 
     public void UseItem()
     {
-        if (item == null)
-        {
-            item.Use();
+        item.Use();
             if (item.isDeletable)
             {
                 ClearSlot();
             }
-        }
+       
     }
 }
