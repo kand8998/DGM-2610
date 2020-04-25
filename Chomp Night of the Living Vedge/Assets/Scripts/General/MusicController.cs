@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MusicController : MonoBehaviour
 {
@@ -26,5 +25,10 @@ public class MusicController : MonoBehaviour
     public void StopMusic()
     {
         audioSource.Stop();
+    }
+
+    public void SwapMusic(AudioClip newClip)
+    {
+        audioSource.clip = newClip;
     }
 }
