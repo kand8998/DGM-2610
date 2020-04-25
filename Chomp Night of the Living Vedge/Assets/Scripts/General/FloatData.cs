@@ -18,9 +18,9 @@ public class FloatData : ScriptableObject
         {
             UpdateValue(amount);
         }
-        if (value > 1)
+        if (value > maxValue)
         {
-            value = 1;
+            value = maxValue;
         }
         if (value < 0)
         {
