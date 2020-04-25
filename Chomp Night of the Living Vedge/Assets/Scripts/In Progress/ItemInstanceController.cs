@@ -6,11 +6,9 @@ public class ItemInstanceController : Item
     public TransformData location;
     public GameObject instanceObject;
     
-    
     public override void Use()
     {
         base.Use();
-        InstanceAtLocation();
     }
     
     private void InstanceAtLocation()
