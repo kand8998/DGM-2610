@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 6392518}
   - component: {fileID: 6392520}
   - component: {fileID: 6392519}
+  - component: {fileID: 6392521}
   m_Layer: 5
   m_Name: Splash Screens
   m_TagString: Untagged
@@ -179,6 +180,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6392517}
   m_CullTransparentMesh: 0
+--- !u!114 &6392521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6392517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45f9d1fcfd72c744b8a051b18c7381d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playBoolObj: {fileID: 0}
 --- !u!1 &47125426
 GameObject:
   m_ObjectHideFlags: 0
