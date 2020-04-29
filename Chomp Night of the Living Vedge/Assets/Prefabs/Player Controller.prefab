@@ -140,7 +140,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   speedUpAction: {fileID: 11400000, guid: e9ac816107d775d46817081c26633657, type: 2}
   slowDownAction: {fileID: 11400000, guid: fd30d5c57a7344549bf62a691c225219, type: 2}
-  walkSpeed: 80
+  walkSpeed: 78
   sprintSpeed: 130
 --- !u!114 &284710742
 MonoBehaviour:
@@ -834,7 +834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dfed90628ac0a149afeb4eb4998dec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 3
+  waitTime: 1.5
   mouseButtonDownEvent:
     m_PersistentCalls:
       m_Calls:
@@ -850,15 +850,15 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1982176398603399907}
-        m_MethodName: Play
-        m_Mode: 1
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -876,7 +876,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1982176398522534708}
+      - m_Target: {fileID: 1982176398603399907}
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -1198,11 +1198,11 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982176398603399909}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 10bb3dc0fd83b7e4d9a532598af4c9e2, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.7
   m_Pitch: -1.7
   Loop: 0
