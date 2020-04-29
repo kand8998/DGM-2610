@@ -34,7 +34,7 @@ public class InventorySlot : MonoBehaviour
         item.Use();
             if (item.isDeletable)
             {
-                ClearSlot();
+                OnRemoveButton();
             }
        
     }
