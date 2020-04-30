@@ -7961,21 +7961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 1821170445, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -106.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 1821170445, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 113.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 1821170445, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 137.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 1821170445, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 66.1
+    - target: {fileID: 263197525697802932, guid: 8ffeddd2b67d14248948bb97a223f9ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6832669383652259550, guid: 8ffeddd2b67d14248948bb97a223f9ab,
         type: 3}
@@ -8082,36 +8071,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2069747077, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.000019073
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069747077, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.000002861
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069747077, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 137.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 2069747077, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 66.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6832669383419493855, guid: 8ffeddd2b67d14248948bb97a223f9ab,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2081101530788021457, guid: 8ffeddd2b67d14248948bb97a223f9ab,
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586715211994547742, guid: 8ffeddd2b67d14248948bb97a223f9ab,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2069747078, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_havePropertiesChanged
@@ -8149,11 +8112,6 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 20
       objectReference: {fileID: 0}
-    - target: {fileID: 263197525697802932, guid: 8ffeddd2b67d14248948bb97a223f9ab,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7710994649115419, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -8162,6 +8120,64 @@ PrefabInstance:
     - target: {fileID: 7710994649115419, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 960355245, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: a8cc48851cc09274995fddc4e5230faf,
+        type: 2}
+    - target: {fileID: 1821170445, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -106.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821170445, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 113.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821170445, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 137.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821170445, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 66.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069747077, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000019073
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069747077, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000002861
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069747077, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 137.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069747077, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 66.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832669383419493855, guid: 8ffeddd2b67d14248948bb97a223f9ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 863872044783798554, guid: 8ffeddd2b67d14248948bb97a223f9ab,
         type: 3}
@@ -8189,6 +8205,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a8cc48851cc09274995fddc4e5230faf,
         type: 2}
+    - target: {fileID: 7586715211994547742, guid: 8ffeddd2b67d14248948bb97a223f9ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8486814678560487905, guid: 8ffeddd2b67d14248948bb97a223f9ab,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
@@ -8226,27 +8247,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 960355246, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847233822, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 960355245, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
-      propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 11400000, guid: a8cc48851cc09274995fddc4e5230faf,
-        type: 2}
     - target: {fileID: 186584931, guid: 8ffeddd2b67d14248948bb97a223f9ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
